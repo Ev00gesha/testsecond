@@ -6,7 +6,7 @@ from telebot import types
 from flask import Flask, request
 
 TOKEN = '5766023354:AAG5cbHs3fFtJFxO9VplTbXkqxMQm6xWRA0'
-APP_URL = f'https://onlylabs.herokuapp.com/{TOKEN}'
+APP_URL = f'https://testwebhoo.herokuapp.com/{TOKEN}'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 logger = telebot.logger
